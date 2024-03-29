@@ -1,10 +1,7 @@
-#Getting user input and naming variables
 calculation = input ("What basic operator do you want to use? (+, -, *, /)\n")
 first_Number = int(input ("What is the first number?\n"))
 second_Number = int(input ("What is the second number?\n"))
 
-
-#Acting on user Input with if and elif
 if calculation == "+":
     print (f"{first_Number} + {second_Number} =", first_Number + second_Number)
 
